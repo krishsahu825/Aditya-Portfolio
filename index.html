@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MordenWebCreators</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">MordenWeb<span>Creators</span></a>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="achivment.html">Achivment</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Premium Websites at <span>Unbeatable Prices</span></h1>
+                <p class="hero-subtitle">Professional web development that won't break your budget. We deliver quality
+                    without compromise.</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary">Get Quote</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+                </div>
+            </div>
+            <div class="hero-vid">
+                <video src="images/Blue and White Animated Get Ready Video.mp4 " loop autoplay class="animated-video"></video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="trust-indicators">
+        <div class="container">
+            <div class="indicator">
+                <h3 class="count" data-target="280">0</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="indicator">
+                <h3 class="count" data-target="250">0</h3>
+                <p>Client Satisfaction</p>
+            </div>
+            <div class="indicator">
+                <h3 class="count" data-target="50">0</h3>
+                <p>Repeat Clients</p>
+            </div>
+            <div class="indicator">
+                <h3 class="count" data-target="24">0</h3>
+                <p>Hour Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-proposition">
+        <div class="container">
+            <h2 class="section-title">Why Choose WebCraft Studios?</h2>
+            <div class="value-cards">
+                <div class="value-card">
+                    <div class="icon-box">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Affordable Pricing</h3>
+                    <p>We offer competitive rates without sacrificing quality, making professional web design
+                        accessible.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon-box">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Our streamlined process ensures your website is ready quickly without compromising quality.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon-box">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Reliable</h3>
+                    <p>We implement the latest security measures to protect your website and your customers.</p>
+                </div>
+                <div class="value-card">
+                    <div class="icon-box">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Ongoing Support</h3>
+                    <p>We provide continuous support and maintenance to keep your website running smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Website Development</h3>
+                    <p>Custom, responsive websites tailored to your business needs.</p>
+                    <a href="services.html#development" class="learn-more">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Online stores with secure payment processing and inventory management.</p>
+                    <a href="services.html#ecommerce" class="learn-more">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Website Redesign</h3>
+                    <p>Modernize your existing website with fresh design and improved functionality.</p>
+                    <a href="services.html#redesign" class="learn-more">Learn More <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="services.html" class="btn btn-outline">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Recent Work</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="business">
+                    <img src="https://images.pexels.com/photos/7821912/pexels-photo-7821912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Business Website">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Business Site</h3>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce">
+                    <img src="https://images.pexels.com/photos/6612276/pexels-photo-6612276.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="E-commerce Store">
+                    <div class="portfolio-overlay">
+                        <h3>Fashion E-commerce</h3>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="portfolio">
+                    <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Portfolio Website">
+                    <div class="portfolio-overlay">
+                        <h3>Photographer Portfolio</h3>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="business">
+                    <img src="https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="Business Website">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Website</h3>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="business">
+                    <img src="https://images.pexels.com/photos/29157233/pexels-photo-29157233/free-photo-of-modern-laptop-with-open-application-on-wooden-table.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="Business Website">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Website</h3>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="business">
+                    <img src="https://images.pexels.com/photos/11813187/pexels-photo-11813187.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                        alt="Business Website">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Website</h3>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"WebCraft Studios delivered an amazing website for my business at a fraction of the cost I
+                            was quoted elsewhere. Their attention to detail and customer service were exceptional."</p>
+                        <div class="client-info">
+                            <img src="https://i.pinimg.com/736x/4c/f4/db/4cf4db95352a1c277296db71bc625882.jpg"
+                                alt="Client Photo">
+                            <div>
+                                <h4>Vivek Deshmukh</h4>
+                                <span>CEO, Bright Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Our e-commerce site has seen a 40% increase in sales since WebCraft Studios redesigned it.
+                            Their team understood our needs perfectly and delivered beyond our expectations."</p>
+                        <div class="client-info">
+                            <img src="https://i.pinimg.com/736x/6f/de/85/6fde85b86c86526af5e99ce85f57432e.jpg"
+                                alt="Client Photo">
+                            <div>
+                                <h4>Harushi</h4>
+                                <span>Founder, Urban Styles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"As a small business owner, I needed an affordable but professional website. WebCraft Studios
+                            provided exactly that, and their ongoing support has been invaluable."</p>
+                        <div class="client-info">
+                            <img src="https://i.pinimg.com/736x/72/89/88/7289884551869045d391efc66b6e0c5c.jpg"
+                                alt="Client Photo">
+                            <div>
+                                <h4>Rahul Jaykar</h4>
+                                <span>Owner, Bloom Floral</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Transparent Pricing</h2>
+            <p class="section-subtitle">No hidden fees - just straightforward pricing for exceptional websites</p>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="currency"></span>
+                            <span class="amount">₹3,999</span>
+                            <span class="period">one-time</span>
+                        </div>
+                        <p>Perfect for small businesses and personal websites</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5 Custom Pages</li>
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Basic SEO Setup</li>
+                        <li><i class="fas fa-check"></i> Contact Form</li>
+                        <li><i class="fas fa-check"></i> 3 Month Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Standard</h3>
+                        <div class="price">
+                            <span class="currency"></span>
+                            <span class="amount">₹8,999</span>
+                            <span class="period">one-time</span>
+                        </div>
+                        <p>Ideal for growing businesses with more complex needs</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 10 Custom Pages</li>
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO</li>
+                        <li><i class="fas fa-check"></i> CMS Integration</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency"></span>
+                            <span class="amount">₹18,999</span>
+                            <span class="period">one-time</span>
+                        </div>
+                        <p>Complete solution for businesses with advanced requirements</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                        <li><i class="fas fa-check"></i> E-commerce Functionality</li>
+                        <li><i class="fas fa-check"></i> Premium SEO</li>
+                        <li><i class="fas fa-check"></i> Custom Features</li>
+                        <li><i class="fas fa-check"></i> 12 Months Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+            <div class="custom-quote">
+                <p>Need something custom? We offer flexible solutions tailored to your specific needs.</p>
+                <a href="contact.html" class="btn btn-secondary">Request Custom Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Online Presence?</h2>
+                <p>Get started with a free consultation to discuss your project needs and receive a personalized quote.
+                </p>
+            </div>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Get Free Consultation</a>
+                <a href="tel:+1234567890" class="btn btn-outline-light">
+                    <i class="fas fa-phone"></i> Call Us Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-logo">WebCraft<span>Studios</span></h3>
+                    <p>Delivering premium websites at affordable prices since 2015. We help businesses establish a
+                        powerful online presence without breaking the bank.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                           <!-- WhatsApp Float Button -->
+                        <div class="whatsapp-float"  >
+                            <a href="https://wa.me/919399856553" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html#development">Website Development</a></li>
+                        <li><a href="services.html#ecommerce">E-commerce Solutions</a></li>
+                        <li><a href="services.html#redesign">Website Redesign</a></li>
+                        <li><a href="services.html#seo">SEO Services</a></li>
+                        <li><a href="services.html#hosting">Hosting Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Chhattishgarh Bhilai City Durg 490006</li>
+                        <li><i class="fas fa-phone"></i> +91 9926064279,+91 9399856553</li>
+                        <li><i class="fas fa-envelope"></i> MordenWebCreators@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 WebCraft Studios. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
